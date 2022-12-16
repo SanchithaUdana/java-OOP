@@ -17,5 +17,13 @@ public class accessModifiers {
     public int summer;
     public String som;
 
+    // protected
+    // using in same package and sub classes (using inherited classes)
+    protected int id;
+    protected String age;
+
+
+    
+
 
 }
