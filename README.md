@@ -1,3 +1,3 @@
 # javaOOP
+![1_2WT9zyzcgv7pE6C7uf6uVQ](https://user-images.githubusercontent.com/109952575/208123708-30df7283-b1d1-4b04-aaf5-9e19cc92f534.gif)
 
-<img width="556" alt="Screenshot 2022-12-16 at 8 10 24 PM" src="https://user-images.githubusercontent.com/109952575/208122439-dd417d3d-4947-4bab-bb23-434b81231dfc.png">
