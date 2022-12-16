@@ -7,8 +7,6 @@ public class personalData {
     public personalData() {   // default constructor
     }
 
-
-
     public void name(){
         System.out.println("Sanchitha");
     }
