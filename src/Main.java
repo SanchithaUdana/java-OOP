@@ -1,6 +1,7 @@
 import Object.personalData;
 import encapsulation.person;
 import inheritance.child;
+import superKeyword.son;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,6 +24,15 @@ public class Main {
         System.out.println("id is "+p.getId());
         // print the name value using getters
         System.out.println("name is "+p.getName());
+
+        // used super keyword
+
+        son s = new son();
+        son s2 = new son(2);
+
+
+
+
 
 
 

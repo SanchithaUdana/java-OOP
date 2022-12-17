@@ -25,4 +25,18 @@ public class person {
         this.name = name;
     }
 
+
+    private int passcode;
+
+    public void setPasscode(int passcode){
+        this.passcode = passcode;
+    }
+
+    public int getPasscode(){
+        return passcode;
+    }
+
+
+
+
 }
