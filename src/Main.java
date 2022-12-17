@@ -25,13 +25,6 @@ public class Main {
         System.out.println("name is "+p.getName());
 
 
-        // inheritance
-
-        child c = new child();
-
-        c.sing();
-        c.write();
-
 
 
 
