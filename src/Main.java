@@ -8,7 +8,7 @@ public class Main {
         personalData p1 = new personalData();
         // p1.name();
 
-
+        // Encapsulation part
         // object create to encapsulation class
 
         person p = new person();
