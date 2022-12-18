@@ -1,6 +1,7 @@
 import Object.personalData;
 import encapsulation.person;
 import inheritance.child;
+import methordOverriding.daughter;
 import superKeyword.son;
 
 public class Main {
@@ -29,6 +30,13 @@ public class Main {
 
         son s = new son();
         son s2 = new son(2);
+
+        // method overriding
+
+        daughter d = new daughter();
+
+        d.phone();  // overrided method
+        d.id();     // non overrided method
 
 
 
