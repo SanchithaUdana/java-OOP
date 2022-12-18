@@ -36,17 +36,18 @@ public class Main {
 
         daughter d = new daughter();
 
-        d.phone();  // overrided method
-        d.id();     // non overrided method
+        d.phone();  // override method
+        d.id();     // non-override method
 
 
         // abstract
+        // we can not create object using abstract class
 
         samsung ph = new samsung();
         ph.call();
         ph.sleep();
+        ph.vibrate();
         ph.talk();
-
 
 
 

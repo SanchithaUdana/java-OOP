@@ -1,13 +1,17 @@
 package abstracts;
 
-public abstract class phone {  // we can not create object relevant abstract classes
+public abstract class phone {
 
-    // can include abstract methods or non abstract methods
+    // we can not create object relevant abstract classes
+    // can include abstract methods or non-abstract methods
+    // if we need to use abstract methods, so we must inherit abstract class to other java class
+
 
     public abstract void call();   // abstract method
     public abstract void sleep();
+    public abstract void vibrate();
 
-    public void talk(){             // non abstract method
+    public void talk(){             // non-abstract method
         System.out.println("can call");
     }
 

@@ -12,5 +12,10 @@ public class samsung extends phone{
         System.out.println("in samsung sleep");
     }
 
+    @Override
+    public void vibrate(){
+        System.out.println("in samsung vibrate");
+    }
+
 
 }
