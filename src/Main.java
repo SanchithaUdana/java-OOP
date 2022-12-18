@@ -1,4 +1,5 @@
 import Object.personalData;
+import abstracts.samsung;
 import encapsulation.person;
 import inheritance.child;
 import methordOverriding.daughter;
@@ -39,6 +40,12 @@ public class Main {
         d.id();     // non overrided method
 
 
+        // abstract
+
+        samsung ph = new samsung();
+        ph.call();
+        ph.sleep();
+        ph.talk();
 
 
 
