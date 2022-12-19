@@ -1,11 +1,50 @@
 import Object.personalData;
 import abstracts.samsung;
 import encapsulation.person;
+import interfaces.animal;
+import interfaces.dog;
 import methordOverriding.daughter;
 import superKeyword.son;
 
-public class Main {
 
+class Bike{
+    void run(){
+        System.out.println("bike is running");
+    }
+}
+
+class yamaha extends Bike{
+    @Override
+    void run(){
+        System.out.println("yamaha bike is running");
+    }
+}
+
+
+// multi level inherit example
+
+class Animal{
+    void eat(){
+        System.out.println("eating");
+    }
+}
+
+class Dog extends Animal{
+    @Override
+    void eat(){
+        System.out.println("dog is eating");
+    }
+}
+
+class BabyDog extends Dog{
+    @Override
+    void eat(){
+        System.out.println("Baby Dog is eating");
+    }
+}
+
+
+public class Main {
 
     public static void main(String[] args) {
         //System.out.println("Hello world!");
@@ -60,8 +99,33 @@ public class Main {
 
         k.school();  // final method
 
+        // interfaces
+
+        dog ui = new dog();
+        ui.eat();
+        ui.sleep();
+        ui.newmethod();  // default method in interface
+        // we can call to static method using interface name and static method name
+        animal.newmethod1();
 
 
+        // run time polymorphism
+        // we can say dynamic method dispatch to run time polymorphism
+        // we use overloading and overriding concept to do polymorphism concept
+
+        Bike z = new yamaha();
+        z.run();
+
+        // multi level inherit
+
+        Animal a1,a2,a3;
+        a1 = new Animal();
+        a2 = new Dog();
+        a3 = new BabyDog();
+
+        a1.eat();
+        a2.eat();
+        a3.eat();
 
 
 
