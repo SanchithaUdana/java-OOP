@@ -116,7 +116,7 @@ public class Main {
         Bike z = new yamaha();
         z.run();
 
-        // multi level inherit
+        // multi level inherit in interface
 
         Animal a1,a2,a3;
         a1 = new Animal();
