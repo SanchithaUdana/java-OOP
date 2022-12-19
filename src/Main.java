@@ -1,11 +1,12 @@
 import Object.personalData;
 import abstracts.samsung;
 import encapsulation.person;
-import inheritance.child;
 import methordOverriding.daughter;
 import superKeyword.son;
 
 public class Main {
+
+
     public static void main(String[] args) {
         //System.out.println("Hello world!");
 
@@ -48,6 +49,17 @@ public class Main {
         ph.sleep();
         ph.vibrate();
         ph.talk();
+
+        // final keyword
+
+        finalKeyword k = new finalKeyword();
+        k.laps = 15;
+
+        System.out.println(k.laps);
+        System.out.println(k.race);  // final instant variable
+
+        k.school();  // final method
+
 
 
 
