@@ -106,7 +106,7 @@ public class Main {
         ui.sleep();
         ui.newmethod();  // default method in interface
         // we can call to static method using interface name and static method name
-        animal.newmethod1();
+        animal.newmethod1();  // static method can access via interface
 
 
         // run time polymorphism
