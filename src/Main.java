@@ -18,6 +18,10 @@ class yamaha extends Bike{
     void run(){
         System.out.println("yamaha bike is running");
     }
+
+    void demo(){
+        System.out.println("bike bike");
+    }
 }
 
 
@@ -104,10 +108,10 @@ public class Main {
         dog ui = new dog();
         ui.eat();
         ui.sleep();
+        ui.getup();
         ui.newmethod();  // default method in interface
         // we can call to static method using interface name and static method name
         animal.newmethod1();  // static method can access via interface
-
 
         // run time polymorphism
         // we can say dynamic method dispatch to run time polymorphism
@@ -115,9 +119,10 @@ public class Main {
 
         Bike z = new yamaha();
         z.run();
+        yamaha hh = new yamaha();
+        hh.demo();
 
-        // multi level inherit in interface
-
+        // multi level inherit
         Animal a1,a2,a3;
         a1 = new Animal();
         a2 = new Dog();
