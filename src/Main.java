@@ -127,8 +127,7 @@ public class Main {
         a2.eat();
         a3.eat();
 
-        // sanchitha udana wijesundara
-        // new commit
+
 
 
 
