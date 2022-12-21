@@ -12,4 +12,11 @@ public class father {
         System.out.println("parameterized constructor in father class");
     }
 
+
+    // you can create methods after creating constructors
+
+
+
+
+
 }
