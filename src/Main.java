@@ -25,7 +25,7 @@ class yamaha extends Bike{
 }
 
 
-// multi level inherit example
+// multi level inherit example (using extends)
 
 class Animal{
     void eat(){
@@ -76,6 +76,7 @@ public class Main {
         son s = new son();
         son s2 = new son(2);
 
+
         // method overriding
 
         daughter d = new daughter();
@@ -113,7 +114,8 @@ public class Main {
         // we can call to static method using interface name and static method name
         animal.newmethod1();  // static method can access via interface
 
-        // run time polymorphism
+        // --> run time polymorphism
+
         // we can say dynamic method dispatch to run time polymorphism
         // we use overloading and overriding concept to do polymorphism concept
 
@@ -131,6 +133,8 @@ public class Main {
         a1.eat();
         a2.eat();
         a3.eat();
+
+
 
 
 
