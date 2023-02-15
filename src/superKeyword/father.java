@@ -9,7 +9,7 @@ public class father {
 
     // parameterized constructor
     public father(int a){
-        System.out.println("parameterized constructor in father class");
+        System.out.println("parameterized constructor in father class" + a );
     }
 
 
