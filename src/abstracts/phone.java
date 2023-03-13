@@ -9,7 +9,6 @@ public abstract class phone {
     public abstract void call();   // abstract method
     public abstract void sleep();
     public abstract void vibrate();
-
     public void talk(){             // non-abstract method
         System.out.println("can call");
     }
