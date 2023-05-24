@@ -9,7 +9,7 @@ public class finalKeyword {
     // --> in final method
     // we can inherit final methods
     // we can not override final methods
-
+    
     // --> in final class
     // we can not inherit final class
 
