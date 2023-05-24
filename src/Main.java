@@ -65,11 +65,14 @@ public class Main {
         p.setId(20);
         // set the value to name
         p.setName("Sanchitha");
+        p.setDepartment("ICT");
 
         // print the id value using getters
         System.out.println("id is "+p.getId());
         // print the name value using getters
         System.out.println("name is "+p.getName());
+        // print the value of private variable "department"
+        System.out.println(p.getDepartment());
 
         // used super keyword
 

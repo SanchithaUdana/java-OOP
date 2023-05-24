@@ -4,6 +4,7 @@ public class person {
 
     private int id;
     private String name;
+    private String department;
 
     // getters  : used to get the data from private variables
     // setters  : used to set the data to private variables
@@ -24,7 +25,14 @@ public class person {
     public void setName(String name) {
         this.name = name;
     }
-
+    // getter of department
+    public String getDepartment() {
+        return department;
+    }
+    // setter of department
+    public void setDepartment(String department) {
+        this.department = department;
+    }
 
     private int passcode;
 
