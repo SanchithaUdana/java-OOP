@@ -2,6 +2,7 @@ import Object.personalData;
 import abstracts.samsung;
 import encapsulation.person;
 import interfaces.animal;
+import interfaces.data;
 import interfaces.dog;
 import methordOverriding.daughter;
 import superKeyword.son;
@@ -117,6 +118,9 @@ public class Main {
         // we can call to static method using interface name and static method name
         animal.newmethod1();  // static method can access via interface
 
+        ui.data();
+        ui.data1();
+        data.data2();
         // --> run time polymorphism
 
         // we can say dynamic method dispatch to run time polymorphism

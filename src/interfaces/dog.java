@@ -1,6 +1,11 @@
 package interfaces;
 
-public class dog implements animal,animaldata{   // multiple implements
+public class dog implements animal,animaldata,data{   // multiple implements
+
+    @Override
+    public void data() {
+        System.out.println("Data");
+    }
 
     @Override
     public void run(){
