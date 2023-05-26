@@ -7,6 +7,11 @@ import interfaces.dog;
 import methordOverriding.daughter;
 import superKeyword.son;
 
+class test{
+    void testing(){
+        System.out.println("class");
+    }
+}
 
 class Bike{
     void run(){
@@ -57,6 +62,8 @@ public class Main {
         personalData p1 = new personalData();
         // p1.name();
 
+        test t1 = new test();
+        t1.testing();
         // Encapsulation part
         // object create to encapsulation class
 
