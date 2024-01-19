@@ -5,6 +5,7 @@ import interfaces.animal;
 import interfaces.data;
 import interfaces.dog;
 import methordOverriding.daughter;
+import org.w3c.dom.ls.LSOutput;
 import superKeyword.son;
 
 class test{
@@ -53,6 +54,14 @@ class BabyDog extends Dog{
     }
 }
 
+class ICT {
+    public void eatIct(String name){
+        int age = 12;
+        System.out.println("Age is " + age);
+        System.out.println(name);
+    }
+
+}
 
 public class Main {
 
@@ -148,6 +157,8 @@ public class Main {
         a2.eat();
         a3.eat();
 
+        ICT i1 = new ICT();
+        i1.eatIct("sanchitha");
 
 
 
