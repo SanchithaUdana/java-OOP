@@ -1,4 +1,4 @@
-# You can Refer the src file Contents with the main.java file (main.java file is the main file to interactive with others)
+# You can refer to the "src" file Contents with the "main.java" file (the main.java file is the main file to interact with others)
 
 
 ## java OOP Concept
